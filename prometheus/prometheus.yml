@@ -26,7 +26,7 @@ scrape_configs:
   - job_name: 'snmp'
     static_configs:
       - targets:
-        - 192.168.42.1 # Router
+        - 197.210.98.25 # Router
     metrics_path: /snmp
     params:
       module: [default]
